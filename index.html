@@ -79,6 +79,9 @@
                     <button class="button hero__button-transp">
                         SUBMIT YOUR APPLICATION
                     </button>
+                    <button class="button hero__button-transp">
+                        APPLICATION
+                    </button>
                 </div>
             </div>
         </div>
@@ -91,11 +94,95 @@
                     Completed projects
                 </h2>
                 <p class="projects__text">
-                    Only a small part of the work performed by our company is presented on the site. For 14 years on in
+                    Only a small part of the work performed by our company is presented on the site. For 14 years on
+                    in
                     the construction <br>
                     market we have made happy more than 1000 families
                 </p>
-                <div class="projects__box">
+                <div class="projects__content">
+                    <div class="projects__box">
+                        <div class="projects__box-items">
+                            <h4 class="title projects__box-title">
+                                City:
+                            </h4>
+                            <p class="projects__box-text">
+                                Rostov-on-Don <br>
+                                LCD admiral
+                            </p>
+                        </div>
+                        <div class="projects__box-items">
+                            <h4 class="title projects__box-title">
+                                apartment area:
+                            </h4>
+                            <p class="projects__box-text">
+                                81 m2
+                            </p>
+                        </div>
+                        <div class="projects__box-items">
+                            <h4 class="title projects__box-title">
+                                Repair time:
+                            </h4>
+                            <p class="projects__box-text">
+                                3.5 months
+                            </p>
+                        </div>
+                        <div class="projects__box-items">
+                            <h4 class="title projects__box-title">
+                                Repair Cost:
+                            </h4>
+                            <p class="projects__box-text">
+                                Upon request
+                            </p>
+                        </div>
+                    </div>
+                    <div class="projects__arrows">
+                        <a href="#" class="projects__arrows-left_link"><img src="./img/arrow-left.svg" alt="arrow-left"
+                                class="projects__arrows-left"></a>
+                        <div class="projects__arrows-dots">
+                            <img src="./img/dot-white.svg" alt="dot white" class="dot">
+                            <img src="./img/dot-grey.svg" alt="dot grey" class="dot">
+                            <img src="./img/dot-grey.svg" alt="dot grey" class="dot">
+                        </div>
+                        <a href="#" class="projects__arrows-right_link"><img src="./img/arrow-right.svg"
+                                alt="arrow-right" class="projects__arrows-right"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__pictures">
+                <div class="projects__pictures-items">
+                    <a href="#" class="projects__pictures-link projects__pictures-link--active">
+                        <h3 class="projects__pictures-title">
+                            Rostov-on-Don, Admiral
+                        </h3>
+                    </a>
+                    <a href="#" class="projects__pictures-link">
+                        <h3 class="projects__pictures-title">
+                            Sochi Thieves
+                        </h3>
+                    </a>
+                    <a href="#" class="projects__pictures-link">
+                        <h3 class="projects__pictures-title">
+                            Rostov-on-Don Patriotic
+                        </h3>
+                    </a>
+                </div>
+                <div class="projects__pictures-images">
+                    <img src="./img/projects__img.jpg" alt="pic1" class="projects__pictures-images_img">
+                </div>
+            </div>
+            <div class="projects__additional">
+                <div class="projects__additional-box">
+                    <img src="./img/projects-mobile.jpg" alt="" class="projects__additional-img">
+                    <a href="#" class="projects__additional-link">
+                        <img src="./img/projects-mobile-arrow-left.svg" alt=""
+                            class="projects__additional-arrow projects__additional-arrow--left">
+                    </a>
+                    <a href="#" class="projects__additional-link">
+                        <img src="./img/projects-mobile-arrow-right.svg" alt=""
+                            class="projects__additional-arrow projects__additional-arrow--right">
+                    </a>
+                </div>
+                <div class="projects__additional-wrapper">
                     <div class="projects__box-items">
                         <h4 class="title projects__box-title">
                             City:
@@ -129,39 +216,6 @@
                             Upon request
                         </p>
                     </div>
-                </div>
-                <div class="projects__arrows">
-                    <a href="#" class="projects__arrows-left_link"><img src="./img/arrow-left.svg" alt="arrow-left"
-                            class="projects__arrows-left"></a>
-                    <div class="projects__arrows-dots">
-                        <img src="./img/dot-white.svg" alt="dot white" class="dot">
-                        <img src="./img/dot-grey.svg" alt="dot grey" class="dot">
-                        <img src="./img/dot-grey.svg" alt="dot grey" class="dot">
-                    </div>
-                    <a href="#" class="projects__arrows-right_link"><img src="./img/arrow-right.svg" alt="arrow-right"
-                            class="projects__arrows-right"></a>
-                </div>
-            </div>
-            <div class="projects__pictures">
-                <div class="projects__pictures-items">
-                    <a href="#" class="projects__pictures-link projects__pictures-link--active">
-                        <h3 class="projects__pictures-title">
-                            Rostov-on-Don, Admiral
-                        </h3>
-                    </a>
-                    <a href="#" class="projects__pictures-link">
-                        <h3 class="projects__pictures-title">
-                            Sochi Thieves
-                        </h3>
-                    </a>
-                    <a href="#" class="projects__pictures-link">
-                        <h3 class="projects__pictures-title">
-                            Rostov-on-Don Patriotic
-                        </h3>
-                    </a>
-                </div>
-                <div class="projects__pictures-images">
-                    <img src="./img/projects__img.jpg" alt="pic1" class="projects__pictures-images_img">
                 </div>
             </div>
         </div>
@@ -209,6 +263,9 @@
                     <span class="label-text control__label-text">I agree to the processing of personal data</span>
                 </label>
             </div>
+            <button class="button control__button control__button-mobile">
+                Submit
+            </button>
         </div>
     </section>
     <section class="repair">
@@ -420,6 +477,7 @@
         </div>
     </section>
     <section class="realize">
+        <div class="realize__overlay"></div>
         <div class="container middle__container realize__container">
             <div class="realize__box">
                 <h2 class="title title__middle title__realize">
@@ -662,6 +720,80 @@
                 <img src="./img/map.jpg" alt="map" class="questions__map-img">
             </div>
         </div>
+    </section>
+    <section class="realize-mobile">
+        <div class="container middle__container realize-mobile__container">
+            <h2 class="title title__middle title__realize-mobile">
+                We realize your
+                wildest fantasies
+            </h2>
+            <div class="realize-mobile__box">
+                <img src="./img/realize/realize-mobile-1.jpg" alt="" class="realize-mobile__box-img">
+                <a href="" class="realize-mobile__box-link">
+                    <img src="./img/realize/arrow-left.svg" alt=""
+                        class="realize-mobile__box-arrow realize-mobile__box-arrow--left">
+                </a>
+                <a href="" class="realize-mobile__box-link">
+                    <img src="./img/realize/arrow-right.svg" alt=""
+                        class="realize-mobile__box-arrow realize-mobile__box-arrow--right">
+                </a>
+            </div>
+        </div>
+        <div class="realize-mobile__form-content">
+            <div class="container middle__container realize-mobile__container">
+                <form class="questions__form realize-mobile__form">
+                    <h3 class="title small__title questions__title">
+                        have any questions?
+                    </h3>
+                    <div class="questions__form-box">
+                        <div class="questions__form-box_wrapper">
+                            <p class="questions__form-text">
+                                Name
+                            </p>
+                            <input type="text" class="questions__form-input" placeholder="What is your name:">
+                        </div>
+                        <div class="questions__form-box_wrapper">
+                            <p class="questions__form-text">
+                                Phone
+                            </p>
+                            <input type="text" class="questions__form-input" placeholder="Your phone number:">
+                        </div>
+                    </div>
+                    <p class="questions__form-text questions__form-text_bottom">
+                        Question
+                    </p>
+                    <input type="text" class="questions__form-input questions__form-input_bottom"
+                        placeholder="I want to know:">
+                    <div class="questions__label-box">
+                        <label class="label questions__label">
+                            <input type="checkbox">
+                            <span class="label-checkbox questions__label-checkbox"></span>
+                            <span class="label-text questions__label-text">I agree to the processing of personal
+                                data</span>
+                        </label>
+                    </div>
+                    <button class="button questions__button">
+                        SUBMIT
+                    </button>
+                </form>
+                <div class="questions__map-box">
+                    <img src="./img/map.jpg" alt="map" class="questions__map-img">
+                </div>
+                <h2 class="title title__middle questions__adress">
+                    Rostov-on-Don, Nansen St., 239 Shopping Center
+                    Decorum Tel +7 (928) 768 32 29
+                </h2>
+                <div class="questions__icons">
+                    <a href="#" class="questions__icons-link">
+                        <img src="./img/que icon mail.svg" alt="mail-icon" class="questions__icons-img">
+                    </a>
+                    <a href="#" class="questions__icons-link">
+                        <img src="./img/que icon insta.svg" alt="inst-icon" class="questions__icons-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </section>
     <footer class="footer">
         <div class="container header-container footer-container">
