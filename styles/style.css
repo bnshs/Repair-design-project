@@ -1335,10 +1335,21 @@ label {
         line-height: 135.84%;
     }
 
+    .control__box-play_content{
+        width: 37px;
+        height: 37px;
+    }
+
+    .control__box-play_button{
+        width: 13px;
+        height: 13px;
+    }
+
     .title__realize-mobile {
         font-size: 22px;
         line-height: 138.6%;
     }
+
 }
 
 @media (max-width: 450px) {
